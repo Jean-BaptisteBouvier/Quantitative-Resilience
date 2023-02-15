@@ -25,7 +25,7 @@ This projects contains the codes used in the paper [Quantitative Resilience of G
 ```
 @article{bouvier2023quantitative,  
   title = {Quantitative Resilience of Generalized Integrators},   
-  author = {Jean-Baptiste Bouvier and Melkior Ornik},    
+  author = {Jean-Baptiste Bouvier, Kathleen Xu and Melkior Ornik},    
   journal = {IEEE Transactions on Automatic Control},    
   year = {2023},   
   volume = {},  
