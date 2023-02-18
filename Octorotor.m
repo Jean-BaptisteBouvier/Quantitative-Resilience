@@ -54,19 +54,3 @@ B_r = [-l*c/Ix, 0, l*c/Ix, 0, 0, 0, l*b*c/Ix, -l*b*c/Ix;
 % ddot [phi, theta, psi] = B_r * [w_1^2, w_2^2, w_3^2, w_4^2, w_5^2, w_6^2, w_7^2, w_8^2]
 
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
