@@ -24,7 +24,7 @@ The *quantitative resilience* of this system is then defined as
 
 $$r_q := \underset{x_g \\, \in \\, \mathbb{R}^n}{\inf} \frac{T_N^* (x_g)}{T_M^* (x_g)}.$$
 
-Note that $r_q$ is the solution of a nonlinear optimization consisting of four nested optimization problems, three of which being over infinite dimensional function sets. Relying on time-optimal control theory we simplified the expressions of the reach times $T_N^*$ and $T_M^*$. Then, we established the [Maximax Minimax Quotient Theorem](https://github.com/Jean-BaptisteBouvier/Maximax-Minimax) to solve the nonlinear optimization over $x_g$ in $r_q$.
+Note that $r_q$ is the solution of a nonlinear optimization consisting of four nested optimization problems, three of which being over infinite dimensional function sets. Relying on time-optimal control theory we simplified the expressions of the reach times $T_N^\ast$ and $T_M^\ast$. Then, we established the [Maximax Minimax Quotient Theorem](https://github.com/Jean-BaptisteBouvier/Maximax-Minimax) to solve the nonlinear optimization over $x_g$ in $r_q$.
 
 
 
