@@ -1,14 +1,18 @@
 # Quantitative Resilience of Generalized Integrators
 
-This projects contains the codes used in the paper [Quantitative Resilience of Generalized Integrators](https://arxiv.org/abs/2111.04163) to be published soon in the IEEE Transactions of Automatic Control. 
+This projects contains the codes used in our paper [Quantitative Resilience of Generalized Integrators](https://arxiv.org/abs/2111.04163) published in the [IEEE Transactions of Automatic Control](https://ieeexplore.ieee.org/abstract/document/10154130). 
 
 
 ## Quantitative resilience framework
 
 This work focuses on quantifying the resilience of linear systems of nominal dynamics
+
 $$\dot{x}(t) = \bar{B} \bar{u}(t), \qquad x(0) = x_0 \in \mathbb{R}^n, \qquad \bar{u}(t) \in \bar{\mathcal{U}},$$
+
 where $\bar{B} \in \mathbb{R}^{n \times (m+p)}$ is a constant matrix. After a *loss of control authority* over $p$ of the initial $m+p$ actuators of the system, we split control matrix $\bar{B}$ into two submatrices $B \in \mathbb{R}^{n \times m}$ and $C \in \mathbb{R}^{n \times p}$ representing respectively the controlled and uncontrolled actuators. Similarly, the input signal $\bar{u}$ and its constraint set $\bar{\mathcal{U}}$ are split between the admissible control signal $u$ belonging to compact set $\mathcal{U}$, and the uncontrolled and possibly undesirable input signal $w$ taking values in compact set $\mathcal{W}$. Then, the dynamics of the malfunctioning system can be written as
+
 $$\dot{x}(t) = Bu(t) + Cw(t), \qquad x(0) = x_0 \in \mathbb{R}^n, \qquad u(t) \in \mathcal{U}, \quad w(t) \in \mathcal{W}.$$
+
 A target $x_g \in \mathbb{R}^n$ is *resiliently reachable* if for all undesirable input $w$ there exists a control input $u$ driving the state of the malfunctioning system from $x_0$ to $x_g$ in a finite time.
 
 The nominal system is *resilient* to this partial loss of control authority if any target is resiliently reachable.
@@ -82,9 +86,9 @@ The codes provided in this repository can compute $T_N^\ast$, $T_M^\ast$ and gen
   author = {Jean-Baptiste Bouvier, Kathleen Xu and Melkior Ornik},    
   journal = {IEEE Transactions on Automatic Control},    
   year = {2023},   
-  volume = {},  
-  number = {},  
-  pages = {}  
+  volume = {68},  
+  number = {12},  
+  pages = {7591-7600}  
 }
 ```
 
